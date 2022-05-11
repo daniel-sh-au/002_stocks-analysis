@@ -124,16 +124,16 @@ End Sub
 ```
 
 ### Analysis of Green Energy Stocks
--	Explain stock performance between 2017 and 2018
-### Original vs. Refactored Script
-Main difference – instead of nested for loops, ticker index was created and incremented for each ticker symbol. 
-Refactored code ran faster 
-Show run time 
-
+Comparing the stock performance between 2017 and 2018, the return in 2017 was considerably better than 2018. Specifically, 11 of the 12 stocks in 2017 had a positive return while only 2 of the 12 stocks in 2018 had a positive return, as shown in the screenshots below. Positive returns are indicated by green cells and negative returns are shown in red. 
 
 ![VBA_Challenge_2017.png](https://github.com/daniel-sh-au/UofT_DataBC_Module02_stocks-analysis/blob/main/resources/VBA_Challenge_2017.PNG)
 
 ![VBA_Challenge_2018.png](https://github.com/daniel-sh-au/UofT_DataBC_Module02_stocks-analysis/blob/main/resources/VBA_Challenge_2018.PNG)
+
+### Original vs. Refactored Script
+When comparing the execution times between the original and refactored script, refactoring the code decreased the runtime by around 1.6 seconds (1.648 seconds from original – 0.074 seconds from refactored). The execution time for the original script is provided in the screenshot below. The main modification in the refactoring process was the removal of the nested for loop and the addition of a ticker index which was incremented for each ticker symbol. 
+
+![VBA_Runtime_original_script.png](https://github.com/daniel-sh-au/UofT_DataBC_Module02_stocks-analysis/blob/main/resources/VBA_Runtime_original_script.PNG)
 
 ## Summary
 
