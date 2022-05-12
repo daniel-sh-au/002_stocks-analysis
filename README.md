@@ -130,7 +130,7 @@ Comparing the stock performance between 2017 and 2018, the return in 2017 was co
 
 ![VBA_Challenge_2018.png](https://github.com/daniel-sh-au/UofT_DataBC_Module02_stocks-analysis/blob/main/resources/VBA_Challenge_2018.PNG)
 
-### Original vs. Refactored Script
+### Original vs. Refactored Script Execution Time
 When comparing the execution times between the original and refactored script, refactoring the code decreased the runtime by around 1.6 seconds (1.648 seconds from original – 0.074 seconds from refactored). The execution time for the original script is provided in the screenshot below. The main modification in the refactoring process was the removal of the nested for loop and the addition of a ticker index which was incremented for each ticker symbol. 
 
 ![VBA_Runtime_original_script.png](https://github.com/daniel-sh-au/UofT_DataBC_Module02_stocks-analysis/blob/main/resources/VBA_Runtime_original_script.PNG)
@@ -141,6 +141,6 @@ When comparing the execution times between the original and refactored script, r
 pros: reduce runtime of code
 cons: might reduce readability
 
-### Application to Refactored Script
+### Advantages and Disadvantages of Original and Refactored Script
 runtime of code 
 
