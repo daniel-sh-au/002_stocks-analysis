@@ -131,14 +131,14 @@ Comparing the stock performance between 2017 and 2018, the return in 2017 was co
 ![VBA_Challenge_2018.png](https://github.com/daniel-sh-au/UofT_DataBC_Module02_stocks-analysis/blob/main/resources/VBA_Challenge_2018.PNG)
 
 ### Original vs. Refactored Script Execution Time
-When comparing the execution times between the original and refactored script, refactoring the code decreased the runtime by around 1.57 seconds (1.648 seconds from original – 0.074 seconds from refactored). The execution time for the original script is provided in the screenshot below. The main modification in the refactoring process was the removal of the nested for loop and the addition of a ticker index which was incremented for each ticker symbol. 
+When comparing the execution times between the original and refactored script, refactoring the code decreased the runtime by around 1.57 seconds (1.648 seconds from original – 0.074 seconds from refactored). The execution time for the original script is provided in the screenshot below. The main modification in the refactoring process was the removal of the nested for loop and the introduction of a ticker index which was incremented for each ticker symbol. 
 
 ![VBA_Runtime_original_script.png](https://github.com/daniel-sh-au/UofT_DataBC_Module02_stocks-analysis/blob/main/resources/VBA_Runtime_original_script.PNG)
 
 ## Summary
 
 ### Advantages and Disadvantages of Refactoring Code
-Some advantages of refactoring code are to improve readability, reduce the number of redundancies, and to decrease the complexity of code. This will optimize memory use and decrease processing time. Some disadvantages of refactoring code are the introduction of new bugs/errors, and that optimization is time consuming. 
+Some advantages of refactoring code are to improve readability, reduce the number of redundancies, and to decrease the complexity of code. This will optimize memory use and decrease processing time. Some disadvantages of refactoring code were the introduction of new bugs/errors, and that optimization is time consuming. 
 
 ### Advantages and Disadvantages of Original and Refactored Script
-In this project, the original script was easier to understand during the learning process of this module. However, the runtime for the original script was longer and would not be suitable if the project was expanded to include the entire stock market. The refactored script reduced the redundancies and improved the efficiency of the code but was time consuming as troubleshooting the code was required to ensure that the program was functional. 
+In this project, the original script was easier to understand during the learning process of this module. However, the runtime for the original script was longer and would not be suitable if the project was expanded to the entire stock market. The refactored script reduced the redundancies and improved the efficiency of the code but was time consuming as troubleshooting the code was required to ensure that the program was functional. 
